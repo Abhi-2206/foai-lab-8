@@ -498,7 +498,9 @@ textarea:focus {
 
 /* Responsive adjustments */
 @media (max-width: 1024px) {
-  --sidebar-w: 260px;
+  :root {
+    --sidebar-w: 260px;
+  }
 }
 
 @media (max-width: 768px) {
